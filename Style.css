@@ -4,3 +4,6 @@ h1{text-align: center;}
 h2{text-align: center;}
 h3{text-align: center;}
 b{color: red;}
+#banner {
+    width: 100%;
+}
