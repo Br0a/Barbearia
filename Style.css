@@ -1,9 +1,16 @@
-body{background-color:cyan}
+body{background-color:darkblue}
 p{text-align: center;}
 h1{text-align: center;}
 h2{text-align: center;}
 h3{text-align: center;}
 b{color: red;}
+
 #banner {
-    width: 100%;
+    width: 50%;
+}
+.container {
+    text-align: center;
+}
+.principal {
+    background-color: darkorange;
 }
