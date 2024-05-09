@@ -1,4 +1,13 @@
-body{background-color:darkblue}
+body{}
+header{
+    background-color:darkblue;
+}
+main{
+background-color: antiquewhite;
+}
+footer{
+background-color:blueviolet;
+}
 p{text-align: center;}
 h1{text-align: center;}
 h2{text-align: center;}
