@@ -10,12 +10,12 @@
 <body>
     <header>
         <div class="caixa">
-            <h1><img src="logo.png" alt=""></h1>
+            <h1><img src="Logo.png" alt=""></h1>
 
             <nav>
                 <ul>
                     <li><a href="index.html">Inicio</a> </li>
-                    <li><a href="servicos.html">serviços</a></li>
+                    <li><a href="servico.html">serviços</a></li>
                     <li><a href="contato.html">Contato</a></li>
                     <li><a href="index.html">creditos</a></li>
                 </ul>
@@ -28,11 +28,32 @@
             <label for="nomesobrenome">Nome e Sobrenome</label>
            <input type="text" id="nomesobrenome">
 
-           <label for="email">Nome e Sobrenome</label>
+           <label for="email">Email</label>
            <input type="text" id="email">
 
-           <label for="telefone">Nome e Sobrenome</label>
+           <label for="telefone">Telefone</label>
            <input type="text" id="telefone">
+
+           <label for="mensagem">Mensagem: </label>
+           <textarea cols="70" rows="10" id="mensagem" class="input padrao"></textarea>
+
+           <div>
+             <p> como prefere o nosso contato?</p>
+             <label for="radio-email">
+                <input type="radio" name="contato" value="email" id="radio-email">
+                Email
+            </label>
+
+             <label for="radio-telefone">
+                <input type="radio" name="contato" value="telefone" id="radio-telefone">
+                Telefone
+            </label>
+
+            <label for="radio-whatsapp">
+                <input type="radio" name="contato" value="whatsapp" id="radio-whatsapp">
+                Whatsapp
+            </label>
+        
 
            <input type="submit" value="Enviar">
 
@@ -40,7 +61,7 @@
     </main>
 
       <footer>
-        <img class="img-footer" src="logo.png">
+        <img src="Logo.png">
         <p class="copyright">&copy; Luan e Noah </p>
       </footer>
 </body>
