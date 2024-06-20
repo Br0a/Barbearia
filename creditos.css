@@ -1,0 +1,58 @@
+header h1 img { 
+    width: 200px;
+}
+
+header {
+    background-color: black;
+}
+
+nav li {
+display: inline;
+margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 50px;
+    right: 0px;
+}
+
+nav a:hover {
+    color:red;
+    text-decoration: underline;
+}
+
+body {
+    background-image: url(Barbearia.jpg);
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer img{
+    width: 200px;
+}
+
+.copyright {
+
+    color: white;
+    font-size: 20px;
+    margin: 20px 0 0;
+}
