@@ -38,7 +38,7 @@ nav a:hover {
 
 body {
     background-image: url(Barbearia.jpg);
-}
+    }
 
 footer {
     background-color: black;
@@ -55,4 +55,12 @@ footer img{
     color: white;
     font-size: 20px;
     margin: 20px 0 0;
+}
+
+figure {
+    text-align: center;
+}
+.creditos {
+    text-align: center;
+    background-color: lightblue;
 }
